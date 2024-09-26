@@ -5,7 +5,7 @@ import analysis
 
 def __tokenize(string: str) -> list[tuple[int, str]]:
     """
-    Takes an input string and analyzes the string to determine which files to use
+    Takes an input string and analyzes the string to determine which files to use.
     """
 
     def peek(arr:list[str]):
@@ -27,6 +27,15 @@ def __tokenize(string: str) -> list[tuple[int, str]]:
 
 
 
-def generate_text_image(input_s:str, size=(500,250), baseline=-1, color: Color = Color.BLACK):
+def generate_text_image(input_s:str, size=(500,250), baseline=False, offset_max=5, color: Color = Color.BLACK):
+    """
+    Takes a string and creates an image with the text in provided handwriting
+
+    * `input_s` the string to use when creating the image
+    * `size` the size of the image, also controls the scaling of the font and alignment
+    * `baseline` Should the letters be perfectly lined up?
+    * `offset_max` The maximum amount of letter vertical offset in either direction
+    * `color` The desired color of text
+    """
     __tokenize(input_s)
     return Image.open("static/samples/letters/lower/001/001_A.png")
