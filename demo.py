@@ -1,5 +1,3 @@
-import PIL.Image
-import sys
 import generator as gen
 
 if __name__ == "__main__":
