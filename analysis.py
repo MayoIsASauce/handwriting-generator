@@ -41,5 +41,3 @@ for key in list(sizes.keys()):
             path = "static/samples/numbers/"
 
         fonts[key][name] = path + name
-
-print(fonts)
