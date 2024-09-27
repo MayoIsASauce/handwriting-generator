@@ -7,5 +7,5 @@ if __name__ == "__main__":
     string_input: str = "USD $1,000,000"
 
     # 2. for each letter in the text fetch an image
-    collage = gen.generate_text_image(string_input, size=(300, 300), offset_max=3, color=gen.Color.BLACK)
+    collage = gen.generate_text_image(string_input, size=(300, 300), offset_max=2, color=gen.Color.BLACK)
     collage.show()

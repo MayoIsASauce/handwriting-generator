@@ -1,0 +1,28 @@
+
+SymbolGuide_d = {
+        '-': "-.png",
+        ',': ",.png",
+        '!': "!.png",
+        '(': "(.png",
+        ')': ").png",
+        '[': "[.png",
+        ']': "].png",
+        '{': "{.png",
+        '}': "}.png",
+        '#': "#.png",
+        '%': "%.png",
+        '+': "+.png",
+        '=': "=.png",
+        '~': "~.png",
+        '$': "$.png",
+        '¢': "cent.png",
+        '.': "dec.png",
+        '/': "div.png",
+        '>': "greater.png",
+        '∩': "intersection.png",
+        '<': "less.png",
+        '*': "mult.png",
+        '|': "pipe.png",
+        '?': "ques.png",
+        '∪': "union.png"
+    }
